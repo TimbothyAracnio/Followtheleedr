@@ -1,3 +1,5 @@
+# this makes some text ma bois
+
 print("Hello World!")
 print("YO MAMA")
 print("IS A")
