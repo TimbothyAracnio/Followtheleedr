@@ -1,12 +1,19 @@
 # this makes some text ma bois
 
-print("Hello World!")
+# this child you see below thee, makes some teext!
+print("Hello Chile!")
 print("YO MAMA")
 print("IS A")
 print("VERY NICE WOMAN")
 
-print("maths!")
-print("dogs: ", 3 + 190 - 300 / 20 * 787)
-print("Ist it")
+print("Solve for 3 + 190 - 2 * 787: ")
+# this calculates math problems
+print(3 + 190 - 2 * 787)
+
+# this makes teext AND calculates math problems
+print("children I own: ", 3 + 190 - 300 / 20 * 787)
+
+print("3 + 2 < 5 + 20 is: ")
+# this gives me back a boolean answer
 print(3 + 2 < 5 + 20)
 
