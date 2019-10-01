@@ -17,3 +17,9 @@ print("3 + 2 < 5 + 20 is: ")
 # this gives me back a boolean answer
 print(3 + 2 < 5 + 20)
 
+
+# original
+print(587988909432 / 25435983498)
+
+# after point thing
+print(587988909432.0000000000 / 25435983498.0000000000)
