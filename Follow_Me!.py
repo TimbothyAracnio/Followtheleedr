@@ -23,3 +23,27 @@ print(587988909432 / 25435983498)
 
 # after point thing
 print(587988909432.0000000000 / 25435983498.0000000000)
+
+camels = 80
+
+humpsOnCamels = 4.0
+
+camelRiders = 40
+
+persons = 115
+
+unMountedCamels = camels - camelRiders
+
+mountedCamels = camelRiders
+
+camelCapacity = mountedCamels * humpsOnCamels
+
+averagePersonsPerCamel = persons / mountedCamels
+
+print("There are", camels, "Camels available.")
+print("There are only", camelRiders, "drivers available.")
+print("There will be", unMountedCamels, "non-vacant camels today.")
+print("We can transport", camelRiders, "persons today.")
+print("We have", persons, "persons to transport.")
+print("we need to put about", averagePersonsPerCamel, "persons in each car.")
+
