@@ -65,13 +65,25 @@ print("His teeth are %s" % myTeeth)
 print("if I add %d and %d I get %d" % myAge, myHeight, myAge + myHeight)
 print("\n\n")
 
-gradeA = "A"
-gradeB = "B"
-gradeC = "C"
-gradeD = "D"
+gradeA = 1
+gradeB = 2
+gradeC = 3
+gradeD = 4
+gradeF = 5
+
 myGrade = gradeA
 
-if myGrade = "A":
+if myGrade == gradeA:
+    gOutput = "A"
+elif myGrade == gradeB:
+    gOutput = "B"
+elif myGrade == gradeC:
+    gOutput = "C"
+elif myGrade == gradeD:
+    gOutput = "D"
+elif myGrade == gradeF:
+    gOutput = "F"
+
 
 
 
