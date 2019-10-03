@@ -47,3 +47,19 @@ print("We can transport", camelRiders, "persons today.")
 print("We have", persons, "persons to transport.")
 print("we need to put about", averagePersonsPerCamel, "persons in each car.")
 
+
+# more variables!
+
+myName = "Jeremiah"
+myAge = 16
+myHeight = 76 #inches
+myEyes = "Brown"
+myTeeth = "A pale dark yellow-ish white"
+myHair = "straight"
+
+print("\n")
+print("Let's talk about %s" % myName)
+print("He's %d inches tall" % myHeight)
+print("He's got %s eyes and %s hair." % (myEyes, myHair))
+print("His teeth are greatly %s" % myTeeth)
+print("if I add %d and %d I get %d" % myAge, myHeight, myAge + myHeight)
