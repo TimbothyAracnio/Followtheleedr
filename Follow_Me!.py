@@ -62,8 +62,8 @@ print("Let's talk about %s" % myName)
 print("He's %d inches tall" % myHeight)
 print("He's got %s eyes and %s hair." % (myEyes, myHair))
 print("His teeth are %s" % myTeeth)
-print("if I add %d and %d I get %d" % myAge, myHeight, myAge + myHeight)
-print("\n\n")
+print("if I add %d and %d I get %d" % (myAge, myHeight, myAge + myHeight))
+print("\n")
 
 gradeA = 1
 gradeB = 2
@@ -75,17 +75,22 @@ myGrade = gradeA
 
 if myGrade == gradeA:
     gOutput = "A"
+    gramrr = "an"
 elif myGrade == gradeB:
     gOutput = "B"
+    gramrr = "a"
 elif myGrade == gradeC:
     gOutput = "C"
+    gramrr = "a"
 elif myGrade == gradeD:
     gOutput = "D"
+    gramrr = "a"
 elif myGrade == gradeF:
     gOutput = "F"
+    gramrr = "an"
 
 
 
 
-print("I got a%c %c ")
+print("I got %s %c " % (gramrr, gOutput))
 
