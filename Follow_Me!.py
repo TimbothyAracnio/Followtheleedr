@@ -54,12 +54,26 @@ myName = "Jeremiah"
 myAge = 16
 myHeight = 76 #inches
 myEyes = "Brown"
-myTeeth = "A pale dark yellow-ish white"
+myTeeth = "a pale dark yellow-ish white"
 myHair = "straight"
 
 print("\n")
 print("Let's talk about %s" % myName)
 print("He's %d inches tall" % myHeight)
 print("He's got %s eyes and %s hair." % (myEyes, myHair))
-print("His teeth are greatly %s" % myTeeth)
+print("His teeth are %s" % myTeeth)
 print("if I add %d and %d I get %d" % myAge, myHeight, myAge + myHeight)
+print("\n\n")
+
+gradeA = "A"
+gradeB = "B"
+gradeC = "C"
+gradeD = "D"
+myGrade = gradeA
+
+if myGrade = "A":
+
+
+
+print("I got a%c %c ")
+
