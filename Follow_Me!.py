@@ -71,26 +71,35 @@ gradeC = 3
 gradeD = 4
 gradeF = 5
 
+
+
+# IMPORTANT!!!
+# change the variable below to any of the ones listed above to see the results =)
 myGrade = gradeA
+
+
 
 if myGrade == gradeA:
     gOutput = "A"
     gramrr = "an"
+    judgement = "Good Job!"
 elif myGrade == gradeB:
     gOutput = "B"
     gramrr = "a"
+    judgement = "Oooo, almost an A."
 elif myGrade == gradeC:
     gOutput = "C"
     gramrr = "a"
+    judgement = "You could do better."
 elif myGrade == gradeD:
     gOutput = "D"
     gramrr = "a"
+    judgement = "You should probably leave."
 elif myGrade == gradeF:
     gOutput = "F"
     gramrr = "an"
+    judgement = "A chipmunk on a skewer would taste better than that."
 
-
-
-
-print("I got %s %c " % (gramrr, gOutput))
+print("You got %s %c " % (gramrr, gOutput))
+print("%s" % judgement)
 
